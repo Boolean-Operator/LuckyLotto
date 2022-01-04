@@ -1,0 +1,28 @@
+.Lottery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  border-radius: .75em;
+  padding: 0 1em;
+  margin-top: 2em;
+}
+.Lottery-Title {
+  font-weight: bold;
+}
+.Lottery-BallContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Lottery-Button {
+  /* width: 25%; */
+  border-radius: .75em;
+  background-color: darkblue;
+  color: white;
+  padding:.25em;
+  margin: 1rem 0;
+}
